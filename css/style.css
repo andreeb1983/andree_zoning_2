@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+/* ma page de style "Ce soir" */
+body {
+    background: pink;
+}
+
+header {
+    height: 500px;;
+    background-image: url(../img/woddPlank.jpg);
+    position: relative;
+}
+
+
+h4 {
+    width: 400px;
+}
+footer { 
+    background-image: url(../img/pattern.jpg);    
+    height: 150px;   
+}
+
+#container {
+    background: wheat;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* les class */
+.image {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);    
+    width: 300px;
+    height: 300px;    
+}
+.gauche {
+    float: left;
+    width: 40%;
+}
+.droite {
+    float: right;
+    width: 60%;
+}
+.droite1 {
+    float: right;
+    width: 40%;
+}
+
+.clear {
+    clear: both;
+}
+
+ul li {
+    float: right;
+    text-align: center;
+    margin-left: 3em;
+}
